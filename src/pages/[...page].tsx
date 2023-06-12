@@ -4,6 +4,8 @@ import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
 import DefaultErrorPage from "next/error";
 import Head from "next/head";
 
+import "../components/builder.io";
+
 // Replace with your Public API Key
 builder.init("3ee4e369b5824642b9fb9dcfe74b694c");
 
