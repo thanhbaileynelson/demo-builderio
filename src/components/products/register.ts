@@ -4,6 +4,6 @@ import dynamic from "next/dynamic";
 Builder.registerComponent(
   dynamic(() => import("./index")),
   {
-    name: "Store Searcher",
+    name: "Products",
   }
 );
