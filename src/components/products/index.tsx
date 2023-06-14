@@ -38,8 +38,10 @@ export default function Products() {
                 alt={item.masterData.current.name.en}
                 src={
                   item?.masterData?.current?.masterVariant?.images?.[0]?.url ||
-                  ""
+                  `https://picsum.photos/seed/${Math.random().toString()}/300/300`
                 }
+                width={300}
+                height={300}
               />
             </div>
             <div className="p-3">
